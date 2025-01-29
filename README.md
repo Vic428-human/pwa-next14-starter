@@ -1,8 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 備忘
 
-## Getting Started
+這個 repo 已經可以給其他有 nextjs 跟 pwa 需求的專案當作是孵蛋器的 Starter，
+預計之後 PWA side project 的時候，直接用這個專案去迭代。
 
-First, run the development server:
+2025/01/29 更新
+目前在做 [e-commerce](https://github.com/Vic428-human/next14-eCommerce) 的 side project，
+所以暫時不會繼續更新此專案。
 
 ```bash
 npm run dev
@@ -14,23 +17,11 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```版本
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+node -v
+v20.12.2
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
 
 ## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
